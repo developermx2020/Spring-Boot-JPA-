@@ -6,5 +6,10 @@ server:
       config:
         server:
           git:
-            uri:
-            searchPath:config-data
+            uri: https://github.com/developermx2020/Spring-Boot-JPA-.git
+            searchPath: config-data
+            username: ${GIT_USER}
+            password: ${GIT_PASSWORD}
+    security:
+      user: root
+      password: s3cr3t
